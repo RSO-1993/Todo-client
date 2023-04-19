@@ -1,0 +1,20 @@
+.footer {
+    width: 100%;
+    max-width: 520px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    background: #161a2b;
+    border-radius: 12px 12px 0 0;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+
+.footer__icon {
+    margin-right: 8px;
+}

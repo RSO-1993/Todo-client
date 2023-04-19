@@ -1,0 +1,19 @@
+.loader {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-top: 8px dashed rgba(93, 12, 255, 1);
+    border-right: 8px dashed rgba(93, 12, 255, 1);
+    border-bottom: 8px dashed rgba(155, 0, 250, 1);
+    border-left: 8px dashed rgba(155, 0, 250, 1);
+    animation: loader 2s linear infinite;
+}
+
+@keyframes loader {
+    0% { 
+        transform: rotate(0deg) scale(0.2); 
+    }
+    100% { 
+        transform: rotate(360deg) scale(1); 
+    }
+}

@@ -1,0 +1,98 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__icon {
+    color: #fff;
+    font-size: 24px;
+}
+
+.h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.input {
+    width: 90%;
+    margin: 4px auto;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.input::placeholder {
+    color: #e2e2e2;
+}
+
+.button {
+    width: 90%;
+    margin: 4px auto;
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: linear-gradient(
+        90deg, 
+        rgba(93, 12, 255, 1) 0%, 
+        rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.content__button_exit {
+    padding: 4px 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    outline: none;
+    border-radius: 0 12px 0 12px;
+    background: linear-gradient(
+        90deg, 
+        rgba(93, 12, 255, 1) 0%, 
+        rgba(155, 0, 250, 1) 100%
+    );
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.message {
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px; 
+}
+
+.message.error {
+    color: #dc3545;
+}
+
+.message.success {
+    color: #198754;
+}
+
+.block {
+    margin-top: 32px;
+}

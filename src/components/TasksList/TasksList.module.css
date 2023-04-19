@@ -1,0 +1,103 @@
+.tasks__row {
+    width: 90%;
+    margin: 4px auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background: linear-gradient(
+        90deg, 
+        rgba(255, 118, 20, 1) 0%, 
+        rgba(255, 84, 17, 1) 100%
+    );
+    border-radius: 4px;
+}
+  
+.tasks__row:nth-child(4n + 1) {
+    background: linear-gradient(
+        90deg, 
+        rgba(93, 12, 255, 1) 0%, 
+        rgba(155, 0, 250, 1) 100%
+    );
+}
+  
+.tasks__row:nth-child(4n + 2) {
+    background: linear-gradient(
+        90deg, 
+        rgba(255, 12, 241, 1) 0%, 
+        rgba(250, 0, 135, 1) 100%
+    );
+}
+  
+.tasks__row:nth-child(4n + 3) {
+    background: linear-gradient(
+        90deg, 
+        rgba(20, 159, 255, 1) 0%, 
+        rgba(17, 122, 255, 1) 100%
+    );
+}
+
+.tasks__row.completed {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+.tasks__text_header {
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+}
+
+.tasks__text_content {
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.tasks__icons_footer {
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    border-top: 1px solid #fff;
+}
+
+.icon_completed {
+    margin-right: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.icon_edit {
+    margin-right: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.icon_delete {
+    color: #fff;
+    cursor: pointer;
+}
+
+.tasks__message {
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px; 
+}
+
+.tasks__message.error {
+    color: #dc3545;
+}
+
+.tasks__message.success {
+    color: #198754;
+}
